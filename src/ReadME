@@ -1,0 +1,18 @@
+**Description**: Create a simple library management system where users can borrow and return books.
+- **Features**:
+    - Classes: Book, User, Library.
+    - Attributes: Book (title, author, ISBN, availability), User (name, ID, borrowedBooks).
+    - Methods: Borrow book, return book, display available books.
+- **OOP Concepts**:
+    - **Encapsulation** (keep attributes private, use getters/setters),
+    - **Polymorphism** (method overloading for borrowing books by title or ISBN).
+
+Explanation of OOP Concepts
+Encapsulation:
+    Attributes of Book, User, and Library are private, and we use getters/setters to access them.
+Polymorphism:
+    Method overloading is used in the Library class for borrowing books (borrowBook by title and borrowBookByISBN by ISBN).
+Abstraction:
+    The Library class abstracts the logic of managing books and provides simple methods for users to interact.
+Inheritance:
+    Not explicitly used here but can be extended if additional roles (e.g., Admin, Member) are introduced.
